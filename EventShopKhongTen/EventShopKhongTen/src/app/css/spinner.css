@@ -1,0 +1,27 @@
+﻿.wrapper{
+  width: 900px;
+  height: 800px;
+}
+
+.hidden{
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .text_path {
+    font-family: 'Allerta Stencil';
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .text_path {
+    font-family: 'Allerta Stencil';
+    font-size: 22px;
+  }
+}
+
+.text_path {
+  font-family: 'Allerta Stencil';
+  font-size: 15px;
+}

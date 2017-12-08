@@ -1,0 +1,16 @@
+﻿
+@media screen and (min-width: 992px) {
+  .spinner {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .spinner {
+    height: 500px;
+  }
+}
+
+.spinner{
+  height: 500px;
+}

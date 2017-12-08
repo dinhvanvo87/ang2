@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EventShopKhongTen</id>
+    <version>1.0.0</version>
+    <authors>EventShopKhongTen</authors>
+    <owners>EventShopKhongTen</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.1">
+        <dependency id="Microsoft.AspNetCore" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ApplicationInsights.AspNetCore" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.StaticFiles" version="1.1.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp1.1/.angular-cli.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/e2e/tsconfig.e2e.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/package.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Properties/launchSettings.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/proxy.config.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/src/tsconfig.app.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/src/tsconfig.spec.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/tsconfig.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/tslint.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\bin\Debug\netcoreapp1.1\EventShopKhongTen.runtimeconfig.json" target="lib\netcoreapp1.1\EventShopKhongTen.runtimeconfig.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\bin\Debug\netcoreapp1.1\EventShopKhongTen.dll" target="lib\netcoreapp1.1\EventShopKhongTen.dll" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\.angular-cli.json" target="content\.angular-cli.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\.angular-cli.json" target="contentFiles\any\netcoreapp1.1\.angular-cli.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\e2e\tsconfig.e2e.json" target="content\e2e\tsconfig.e2e.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\e2e\tsconfig.e2e.json" target="contentFiles\any\netcoreapp1.1\e2e\tsconfig.e2e.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\package.json" target="content\package.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\package.json" target="contentFiles\any\netcoreapp1.1\package.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\Properties\launchSettings.json" target="contentFiles\any\netcoreapp1.1\Properties\launchSettings.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\proxy.config.json" target="content\proxy.config.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\proxy.config.json" target="contentFiles\any\netcoreapp1.1\proxy.config.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\src\tsconfig.app.json" target="content\src\tsconfig.app.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\src\tsconfig.app.json" target="contentFiles\any\netcoreapp1.1\src\tsconfig.app.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\src\tsconfig.spec.json" target="content\src\tsconfig.spec.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\src\tsconfig.spec.json" target="contentFiles\any\netcoreapp1.1\src\tsconfig.spec.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\tsconfig.json" target="content\tsconfig.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\tsconfig.json" target="contentFiles\any\netcoreapp1.1\tsconfig.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\tslint.json" target="content\tslint.json" />
+    <file src="F:\ArmStore\EventShopKhongTen\EventShopKhongTen\tslint.json" target="contentFiles\any\netcoreapp1.1\tslint.json" />
+  </files>
+</package>

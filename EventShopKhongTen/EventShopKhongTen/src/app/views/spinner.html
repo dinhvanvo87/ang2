@@ -1,0 +1,26 @@
+﻿<div class="row text-center"  style="width:100%;">
+  <span>Lượt quay: {{customer.totalWheel}}</span>
+</div>
+<div class="row" style="width:100%; height:100%" #svgElement>
+  <svg id="circle_split" fill="#cccccc" width="100%" height="100%" [attr.fill]="svgFill" #svgElement>
+    <g [attr.transform]="transform">
+      <g *ngFor="let s of mainObject; let i = index" id="g{{i}}">
+        <defs>
+          <pattern id="image" [attr.x]=""></pattern>
+        </defs>
+        <path [attr.d]="s.gObject.path" [attr.fill]="s.gObject.fill" [attr.stroke]="s.gObject.stroke"></path>
+        <text [attr.x]="s.textObject.textX" [attr.y]="s.textObject.textY" [attr.transform]="s.textObject.path" class="text_path">{{s.textObject.val}}</text>
+        <!--<image [attr.width]="s.imgObject.imgWidth" [attr.height]="s.imgObject.imgHeight" href="../../assets/img/spinner/likebutton.png" [attr.x]="s.imgObject.imgX" [attr.y]="s.imgObject.imgY" [attr.transform]="s.imgObject.imgPath"></image>-->
+      </g>
+    </g>
+
+    <polyline [attr.points]="points" id="pointer" fill="rgba(5,111,113,0.9)"></polyline>
+  </svg>
+  <svg id="tmp_circle_split"></svg>
+</div>
+<div class="row"  style="width:100%;">
+  <div class="col-md-12">
+    <button type="button" class="btn btn-primary center-block" (click)="startSpinner()" [class.hidden]="!isStart" [disabled]="customer.totalWheel <= 0">Bắt đầu</button>
+    <button type="button" class="btn btn-primary center-block" (click)="stopSpinner()" [class.hidden]="isStart">Dừng</button>
+  </div>
+</div>

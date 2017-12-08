@@ -1,0 +1,50 @@
+<!--<form #f="ngForm" novalidate id="frmSpAdd">
+
+  <div>
+    <div class="wrapper">
+      <div class="parallax filter-black">
+        <div class="parallax-image"></div>
+        <div class="small-info">
+          <div class="col-sm-10 col-sm-push-1 col-md-6 col-md-push-3 col-lg-6 col-lg-push-3">
+            <div class="card-group animated flipInX">
+              <div class="card">
+                <div class="card-block">
+                  <div class="center">
+                    <h4 class="m-b-0"><span class="icon-text">Nhập code của bạn</span></h4>
+                  </div>
+                    <small class="text-danger">{{errors}}</small>
+                    <div class="form-group">
+                      <input type="text" class="form-control" [class.err]="err" placeholder="XXXXXXXX -XXXX-XXXX-XXXX-XXXXXXXXXXXX" [(ngModel)]="customerCode" 
+                             pattern="(^[a-zA-Z0-9-]{8})+-+([a-zA-Z0-9-]{4})+-+([a-zA-Z0-9-]{4})+-+([a-zA-Z0-9-]{4})+-+([a-zA-Z0-9-]{12})$"
+                             required name="code">
+                      <small [hidden]="!err" class="text-danger">
+                        Code không tồn tại.
+                      </small>
+                    </div>
+                    <div class="center">
+                      <button type="button" class="btn btn-primary btn-block" (click)="checkCode()" [disabled]="!f.valid">OK</button>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="loading" [class.hidden]="!showProgress">
+  </div>
+
+</form>-->
+
+<div class="row text-center">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <h1 *ngIf="t > 0">{{countDown}}</h1>
+    <h1 *ngIf="t <= 0">{{code}}</h1>
+  </div>
+  <div class="col-md-2"></div>
+</div>

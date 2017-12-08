@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h4 {
+  font-weight: 700;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+}
+p {
+  overflow-x: hidden;
+  font-family: 'Roboto Slab','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+body {
+  background-color: #e0dede;
+}
